@@ -21,3 +21,17 @@ SwimScript is an interpreted language that allows you to write and execute progr
 | CALL | Prompts the user for input and pushes the character's ASCII value onto the stack. |
 | HEAT | Multiplies the top two values of the stack. |
 | FALSE START | Pops the top of the stack. |
+
+### Here are some examples of code inputs and outputs:
+
+`python swimscript.py examplePrograms/repeater.swim` <br>
+Please enter an input: (enter a character to repeat)<br>
+Please enter an input: (enter a number for how many times to print the first input)<br>
+<br>
+(the entered character printed however many times)<be>
+
+`python swimscript.py examplePrograms/multiply.swim` <br>
+Please enter an input: (enter a number)<br>
+Please enter an input: (enter a number)<br>
+<br>
+(the result)<br>
