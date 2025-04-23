@@ -1,0 +1,22 @@
+CALL               # Take the first input (character to repeat)
+STYLE FREE         # Move it to the bottom of the stack
+
+CALL               # Take the second input (number of repetitions)
+TAKEOVER           # Convert the ASCII value of the number to an integer
+
+LAP                # Duplicate the repetition count for loop control
+
+EXIT 23            # Jump to the loop start if the count is zero
+
+# Loop Body
+COUNTDOWN          # Decrement the repetition count
+LAP
+STYLE BACK         # Move the character to the top of the stack
+LAP                # Duplicate the character for printing
+STYLE FREE         # Move the character back to the bottom of the stack
+STYLE FREE
+DIVE 12
+
+FALSE START
+FALSE START
+FINISH             # End the program

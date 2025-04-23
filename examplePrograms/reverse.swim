@@ -1,0 +1,4 @@
+CALL               # Input the entire string character by character
+
+# Once we have all characters, ensure print the stored characters correctly
+FINISH             # Print characters, this handles the reverse order effectively

@@ -1,0 +1,23 @@
+DIVING 72    # ASCII for 'H'
+SPLASH       # Print 'H'
+DIVING 101   # ASCII for 'e'
+SPLASH       # Print 'e'
+DIVING 108   # ASCII for 'l'
+SPLASH       # Print 'l'
+DIVING 108   # ASCII for 'l'
+SPLASH       # Print 'l'
+DIVING 111   # ASCII for 'o'
+SPLASH       # Print 'o'
+DIVING 32    # ASCII for space
+SPLASH       # Print space
+DIVING 87    # ASCII for 'W'
+SPLASH       # Print 'W'
+DIVING 111   # ASCII for 'o'
+SPLASH       # Print 'o'
+DIVING 114   # ASCII for 'r'
+SPLASH       # Print 'r'
+DIVING 108   # ASCII for 'l'
+SPLASH       # Print 'l'
+DIVING 100   # ASCII for 'd'
+SPLASH       # Print 'd'
+FINISH       # Print the final output (should not be necessary if already printed)

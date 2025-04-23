@@ -1,0 +1,9 @@
+# Multiplies two single-digit numbers and prints the result. Takes user input.
+
+CALL               # Prompt the user for the first number
+
+CALL               # Prompt the user for the second number
+
+HEAT
+
+SPLOOSH
