@@ -14,8 +14,8 @@ SwimScript is an interpreted language that allows you to write and execute progr
 | FINISH | Pops all values from the stack and prints them as characters to produce the final output. This command effectively ends the execution of the program. |
 | TAKEOVER | Converts the top value of the stack to an integer and pushes it back. |
 | HEAT | Pops the top two values off the stack and pushes the result of their multiplication. |
-| DIVE <line_num> | Conditional control to jump to a specified line if the top stack value is not zero. |
-| EXIT <line_num> | Conditional control to jump to a specified line if the top stack value is zero. |
+| DIVE <line_num> | Conditional control to jump to a specified line if the top stack value popped off is not zero. |
+| EXIT <line_num> | Conditional control to jump to a specified line if the top stack value popped off is zero. |
 | STYLE FREE | Moves the top value to the top of the stack. |
 | STYLE BACK | Moves the top value to the bottom (location 0) of the stack. |
 | CALL | Prompts the user for input and pushes the character's ASCII value onto the stack. |
